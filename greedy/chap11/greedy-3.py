@@ -12,6 +12,8 @@ def solution(s: str):
             continue
     res_list.append(tmp_list)
 
+    print(tmp_list)
+
     zero_num = 0
     for x in res_list:
         if 0 in x:
